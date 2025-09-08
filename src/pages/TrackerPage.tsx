@@ -11,9 +11,9 @@ type Expense = {
 };
 
 export default function ExpenseTracker() {
-  const [opened, setOpened] = useState(false);
+  /*const [opened, setOpened] = useState(false);
   const [expenses, setExpenses] = useState<Expense[]>([]);
-  const categories = ["Food", "Transport", "Entertainment"];
+  const categories = ["Food", "Transport", "Entertainment"];*/
 
   return (
     <Container style={{ maxWidth: 600, margin: "auto", padding: 20 }}>

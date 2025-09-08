@@ -18,7 +18,7 @@ export default function AddExpenseModal({
   opened,
   onClose,
 }: AddExpenseModalProps) {
-  const [name, setName] = useState<string>("");
+/*{  const [name, setName] = useState<string>("");
   const [amount, setAmount] = useState<string | number>(0);
   const [category, setCategory] = useState<string | null>(null);
 
@@ -32,8 +32,9 @@ export default function AddExpenseModal({
     setCategory(event.target.value)
   }
   const handleSubmit = () => {
-    
-  };
+
+  };*/
+
 
   
 
